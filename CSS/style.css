@@ -378,7 +378,7 @@
     align-content: center;
     justify-content: center;
     flex-wrap: wrap;
-    
+
 }
 
 .card-container div {
@@ -400,12 +400,107 @@
     height: 60px;
     padding: 8px 10px;
 }
-#card-games:hover{
+
+#card-games:hover {
     border: 1.5px solid #FF42A5;
     cursor: pointer;
     border-radius: 50px;
 }
-#card-games p:hover{
+
+#card-games p:hover {
     color: #FE2C55;
 }
+
 /* card section ends */
+
+/* footer section starts */
+
+footer {
+    margin-top: 50px;
+    padding-top: 50px;
+    background: #0B0223;
+    height: 350px;
+}
+
+.footer-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-head {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: normal;
+    color: #FFF;
+}
+
+.footer-head span {
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.footer-menu ul {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 50px;
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: normal;
+    padding-top: 50px;
+    list-style: none;
+}
+.footer-icon{
+    color: #FFF;
+}
+.footer-icon i{
+}
+.footer-icon ul{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: row;
+    gap: 30px;
+    color: #FFF;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: normal;
+    padding-top: 50px;
+    list-style: none;
+}
+.footer-icon .fa-brands{
+    width: 40px;
+    height: 40px;
+    font-size: 35px;
+}
+.footer-icon:hover{
+    cursor: pointer;
+}
+.privacy-container ul{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: row;
+    gap: 30px;
+    color: #FFF;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 50px;
+    list-style: none;
+}
+.cpy-right{
+    color: #FFF;
+    text-align: center;
+    font-size: 10px;
+    padding-top: 25px;
+    font-weight: 400;
+}
