@@ -296,6 +296,33 @@
     gap: 15px;
     margin: 20px 80px;
     padding-left: 90px;
+    position: relative;
+    cursor: pointer;
+}
+
+.online-games-images .fa-circle-play{
+    position: absolute;
+    left: 70%;
+    bottom: 40%;
+    /* transform: translate(50%, 50%); */
+    font-size: 50px;
+    display: none;
+    color: #fff;
+}
+
+.online-games-images:hover .fa-circle-play {
+    display: block;
+    
+}
+
+
+.online-games-images-caption {
+    display: flex;
+    color: #534C64;
+    font-size: 15px;
+    font-weight: 500;
+    margin: 20px 80px;
+    padding-left: 90px;
 }
 
 .online-games-images-caption {
@@ -457,12 +484,14 @@ footer {
     padding-top: 50px;
     list-style: none;
 }
-.footer-icon{
+
+.footer-icon {
     color: #FFF;
 }
-.footer-icon i{
-}
-.footer-icon ul{
+
+.footer-icon i {}
+
+.footer-icon ul {
     display: flex;
     justify-content: center;
     align-content: center;
@@ -476,15 +505,18 @@ footer {
     padding-top: 50px;
     list-style: none;
 }
-.footer-icon .fa-brands{
+
+.footer-icon .fa-brands {
     width: 40px;
     height: 40px;
     font-size: 35px;
 }
-.footer-icon:hover{
+
+.footer-icon:hover {
     cursor: pointer;
 }
-.privacy-container ul{
+
+.privacy-container ul {
     display: flex;
     justify-content: center;
     align-content: center;
@@ -498,11 +530,14 @@ footer {
     padding-top: 50px;
     list-style: none;
 }
-.cpy-right{
+
+.cpy-right {
     color: #FFF;
     text-align: center;
     font-size: 10px;
     padding-top: 25px;
     font-weight: 400;
 }
+
 /* footer section ends */
+
