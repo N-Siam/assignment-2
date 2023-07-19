@@ -312,3 +312,59 @@
 }
 
 /* online games section ends */
+
+/* play instatntly section starts */
+.play-instantly-container {
+    display: flex;
+    align-items: center;
+    padding: 50px 200px;
+    gap: 140px;
+}
+
+.play-instantly-head {
+    color: #0B0223;
+    text-align: center;
+    font-size: 45px;
+    font-weight: 700;
+    width: 350px;
+    text-align: right;
+}
+
+.play-instantly-head span {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.play-instantly-text {
+    color: #534C64;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 30px;
+    width: 350px;
+    text-align: right;
+}
+
+.play-instantly-img {
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.play-instantly-img1 {
+    width: 300px;
+    height: 300px;
+    display: block;
+    margin: 0 auto;
+}
+
+.play-instantly-img2 {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    bottom: -9%;
+    left: -25%;
+}
+/* play instantly section ends */
