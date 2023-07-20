@@ -137,6 +137,11 @@
 .banner p {
     padding: 10px;
 }
+.fa-circle-play, 
+.fa-download,
+.fa-user-group{
+    color: #e7519fd4;
+}
 
 .sign-in-btn {
     padding: 10px 20px;
