@@ -204,7 +204,7 @@
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    padding-right: 130px;
+    padding-right: 110px;
     padding-bottom: 10px;
 }
 
@@ -243,7 +243,7 @@
     font-size: 18px;
     font-weight: 500;
     line-height: 45px;
-    padding-right: 130px;
+    padding-right: 110px;
 }
 
 .quotation {
@@ -252,7 +252,7 @@
     font-weight: 700;
     line-height: 30px;
     text-align: right;
-    padding-right: 130px;
+    padding-right: 110px;
 }
 
 /* know more section ends */
