@@ -9,7 +9,6 @@
     padding: 0;
 }
 
-
 /* navbar section starts */
 
 .nav-container {
@@ -299,23 +298,6 @@
     position: relative;
     cursor: pointer;
 }
-
-.online-games-images .fa-circle-play{
-    position: absolute;
-    left: 70%;
-    bottom: 40%;
-    /* transform: translate(50%, 50%); */
-    font-size: 50px;
-    display: none;
-    color: #fff;
-}
-
-.online-games-images:hover .fa-circle-play {
-    display: block;
-    
-}
-
-
 .online-games-images-caption {
     display: flex;
     color: #534C64;
