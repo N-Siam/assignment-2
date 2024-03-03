@@ -12,7 +12,10 @@
   width: 82%;
   margin: 0 auto;
 }
-
+.btn-primary {
+  border-radius: 8px;
+  background: rgb(255, 84, 0);
+}
 /* navbar styles */
 .nav-container {
   display: flex;
@@ -54,12 +57,90 @@
   color: #ff5400;
 }
 .hamburger-menu {
-    display: none; 
-    cursor: pointer;
+  display: none;
+  cursor: pointer;
 }
 .bar {
-    width: 25px;
-    height: 3px;
-    background-color: #424247;
-    margin: 5px 0;
+  width: 25px;
+  height: 3px;
+  background-color: #424247;
+  margin: 5px 0;
+}
+
+/* banner styles */
+.banner-container {
+  min-height: 500px;
+  background-image: url("../Images/banner.png");
+  object-fit: cover;
+  border-radius: 16px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+.banner-content {
+  padding: 120px 60px;
+}
+.banner-container h2 {
+  width: 70%;
+  margin: 0 auto;
+  color: rgb(255, 255, 255);
+  font-size: 64px;
+  font-weight: 800;
+  line-height: 80px;
+  text-align: center;
+}
+.banner-container p {
+  color: rgb(255, 255, 255);
+  width: 70%;
+  margin: 0 auto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: center;
+}
+.banner-search-items {
+  width: 60%;
+  margin: 0px auto;
+}
+.banner-search-items input {
+  border-radius: 8px;
+  background: rgb(255, 255, 255);
+  width: 150px;
+  height: 40px;
+  padding: 10px;
+}
+.banner-search-items .banner-btn {
+  width: 150px;
+  height: 40px;
+  padding: 10px;
+}
+
+/* popular tour styles */
+.popular-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 80px;
+}
+.popular-container .popular-content {
+  width: 50%;
+}
+.popular-content * {
+  width: 90%;
+  margin-bottom: 15px;
+}
+.popular-container .popular-img {
+  width: 50%;
+}
+.popular-img img {
+  width: 100%;
+  object-fit: cover;
+}
+.popular-btn {
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 25px;
+  letter-spacing: 0%;
+  text-align: center;
+  width: 130px;
+  height: 40px;
 }
