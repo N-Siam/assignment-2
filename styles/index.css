@@ -211,6 +211,9 @@ p {
   grid-column: 6 / span 7;
 }
 
+
+
+
 /* why choose us section styles */
 .choose-us-container {
   margin-top: 70px;
@@ -253,10 +256,10 @@ p {
   padding: 12px;
 }
 .cart-container .cart-2 {
-  background: #29CEF60D;
+  background: #29cef60d;
 }
-.cart-container .cart-3{
-  background: #E944440D;
+.cart-container .cart-3 {
+  background: #e944440d;
 }
 .cart-1 h4 {
   color: rgb(19, 19, 24);
